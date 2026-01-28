@@ -63,7 +63,7 @@ export default function HeroVideo() {
 
       {/* CONTENT */}
       <div
-        className={`relative z-10 max-w-7xl mx-auto text-white transition-opacity duration-700 ${
+        className={`relative z-10 max-w-7xl mx-auto text-black lg:text-white transition-opacity duration-700 ${
           fade ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -75,7 +75,7 @@ export default function HeroVideo() {
           {videos[currentVideo].title}
         </h1>
 
-        <p className="text-xl md:text-2xl text-white/80 max-w-xl mb-8">
+        <p className="text-xl md:text-2xl text-black lg:text-white/80 max-w-xl mb-8">
           {videos[currentVideo].subtitle}
         </p>
 
